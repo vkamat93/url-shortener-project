@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="assets/banner.png" alt="URL Shortener Banner" width="80%"/>
+</p>
 
-## Getting Started
+<h1 align="center">🔗 URL Shortener</h1>
 
-First, run the development server:
+<p align="center">
+  <a href="https://github.com/vkamat93/url-shortener-project/stargazers">
+    <img src="https://img.shields.io/github/stars/vkamat93/url-shortener-project?style=for-the-badge" alt="Stars"/>
+  </a>
+  <a href="https://github.com/vkamat93/url-shortener-project/issues">
+    <img src="https://img.shields.io/github/issues/vkamat93/url-shortener-project?style=for-the-badge" alt="Issues"/>
+  </a>
+  <a href="https://github.com/vkamat93/url-shortener-project/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/vkamat93/url-shortener-project?style=for-the-badge" alt="License"/>
+  </a>
+  <img src="https://img.shields.io/badge/Next.js-13-blue?style=for-the-badge&logo=nextdotjs" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-3-blue?style=for-the-badge&logo=tailwindcss" alt="TailwindCSS"/>
+</p>
 
+---
+
+## 📚 Table of Contents
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Screenshots / Demo](#-screenshots--demo)
+- [Lessons Learned](#-lessons-learned)
+- [License](#-license)
+
+---
+
+## 📖 About the Project
+A full-stack URL shortening web application built with **Next.js** and **MongoDB**, designed for performance, simplicity, and modern developer workflows.
+
+---
+
+## ✨ Features
+- **Instant Shortening** — Paste your long URL, get a short link instantly.
+- **Click Tracking** — View analytics for each shortened URL.
+- **Custom Slugs** — Create branded, memorable short links.
+- **Responsive UI** — Works on all devices.
+- **Dark/Light Mode** — Theme toggle.
+
+---
+
+## 🛠 Tech Stack
+| Frontend  | Backend  | Database | Deployment |
+|-----------|----------|----------|------------|
+| Next.js   | API Routes | MongoDB Atlas | Vercel |
+
+---
+
+## 🚀 Getting Started
 ```bash
+git clone https://github.com/vkamat93/url-shortener-project.git
+cd url-shortener-project
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📸 Screenshots / 🎥 Demo
+<p align="center"> <img src="assets/screenshot-home.png" alt="Homepage" width="80%"/> <img src="assets/screenshot-analytics.png" alt="Analytics Page" width="80%"/> </p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📝 Lessons Learned
+Implementing serverless API routes in Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Designing MongoDB schemas for analytics tracking
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploying full-stack apps on Vercel
